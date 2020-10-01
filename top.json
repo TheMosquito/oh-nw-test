@@ -1,0 +1,30 @@
+{
+  "org": "mycluster",
+  "label": "",
+  "url": "top",
+  "version": "1.0.0",
+  "arch": "amd64",
+  "public": true,
+  "sharable": "singleton",
+  "requiredServices": [
+    {
+      "org":"mycluster",
+      "url": "under1",
+      "versionRange": "[0.0.0,INFINITY)",
+      "arch": "amd64"
+    },
+    {
+      "org":"mycluster",
+      "url": "under2",
+      "versionRange": "[0.0.0,INFINITY)",
+      "arch": "amd64"
+    }
+  ],
+  "userInput": [],
+  "deployment": {
+    "services": {
+      "top": { "image": "ibmosquito/dummy:1.0.0" }
+    }
+  }
+}
+

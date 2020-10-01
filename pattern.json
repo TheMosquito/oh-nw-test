@@ -1,0 +1,14 @@
+{
+  "name": "gdarling-nwtest",
+  "label": "",
+  "description": "",
+  "public": false,
+  "services": [
+    {
+      "serviceUrl": "top",
+      "serviceOrgid": "mycluster",
+      "serviceArch": "amd64",
+      "serviceVersions": [ { "version": "1.0.0" } ]
+    }
+  ]
+}

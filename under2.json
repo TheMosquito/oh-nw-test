@@ -1,0 +1,17 @@
+{
+  "org": "mycluster",
+  "label": "",
+  "url": "under2",
+  "version": "1.0.0",
+  "arch": "amd64",
+  "public": true,
+  "sharable": "singleton",
+  "requiredServices": [],
+  "userInput": [],
+  "deployment": {
+    "services": {
+      "under2": { "image": "ibmosquito/dummy:1.0.0" }
+    }
+  }
+}
+
